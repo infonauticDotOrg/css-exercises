@@ -59,7 +59,6 @@ ul{
 
 .content{
   display:flex;
-  border:solid red;
   flex:1;
 }
 
