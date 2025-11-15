@@ -7,9 +7,32 @@ img {
   height: 100px;
 }
 
+.box-container{
+  display:flex;
+  gap:52px;
+  padding: 0px 100px 0 100px;
+  justify-content: center;
+
+}
+
+.box-one, 
+.box-two, 
+.box-three, 
+.box-four{
+  display:flex;
+  width:200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  align-content:center;
+  display:flex;
+  margin:0 0 32px 0;
 }
 
 /* do not edit this footer */
